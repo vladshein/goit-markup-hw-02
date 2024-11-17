@@ -1,6 +1,6 @@
 body {
   font-family: 'Roboto', sans-serif;
-  /* color: #2e2f42; */
+  color: #434455;
   background-color: #ffffff;
   font-size: 16px;
   line-height: 1.5;
@@ -12,6 +12,13 @@ body {
 
 .header-address-list-link {
   text-decoration: none;
+  color: #434455;
+}
+
+.header-address-list-link:hover,
+.header-address-list-link:active {
+  text-decoration: none;
+  color: #404bbf;
 }
 
 button {
@@ -43,10 +50,17 @@ button {
   color: #2e2f42;
 }
 
+.header-nav-list-studio {
+  letter-spacing: 0.02em;
+  font-weight: 500;
+  text-decoration: none;
+}
+
 .header-nav-list {
   letter-spacing: 0.02em;
   font-weight: 500;
   text-decoration: none;
+  color: #2e2f42;
 }
 
 .header-nav-list-link {
@@ -83,6 +97,10 @@ button {
 .hero-button:hover,
 .hero-button:focus {
   background-color: #404bbf;
+}
+
+.section-header {
+  color: #2e2f42;
 }
 
 .section-list-item-text {
