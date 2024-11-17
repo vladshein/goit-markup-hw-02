@@ -16,7 +16,7 @@ body {
 }
 
 .header-address-list-link:hover,
-.header-address-list-link:active {
+.header-address-list-link:focus {
   text-decoration: none;
   color: #404bbf;
 }
@@ -31,6 +31,7 @@ button {
   letter-spacing: 0.02em;
   font-weight: 500;
   line-height: 1.2;
+  color: #2e2f42;
 }
 
 /* .header-nav {
@@ -64,7 +65,13 @@ button {
 }
 
 .header-nav-list-link {
+  color: #2e2f42;
   text-decoration: none;
+}
+
+.header-nav-list-link:hover,
+.header-nav-list-link:focus {
+  color: #404bbf;
 }
 
 .header-address-list {
@@ -99,8 +106,21 @@ button {
   background-color: #404bbf;
 }
 
+.section-two {
+  background-color: #f4f4fd;
+}
+
+.section-two-list-item {
+  background-color: #ffffff;
+}
+
 .section-header {
   color: #2e2f42;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
 }
 
 .section-list-item-text {
