@@ -1,12 +1,12 @@
 body {
   font-family: 'Roboto', sans-serif;
-  color: #2e2f42;
+  /* color: #2e2f42; */
   background-color: #ffffff;
   font-size: 16px;
   line-height: 1.5;
 }
 
-address {
+.header-address {
   font-style: normal;
 }
 
@@ -19,10 +19,11 @@ button {
   cursor: pointer;
 }
 
-h3 {
+.section-list-item-header {
   font-size: 20px;
   letter-spacing: 0.02em;
   font-weight: 500;
+  line-height: 1.2;
 }
 
 /* .header-nav {
@@ -31,10 +32,11 @@ h3 {
   color: #4d5ae5;
   font-family: 'Raleway', sans-serif;
   font-size: 18px;
-  line-height: 1.16;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   font-weight: bold;
   text-decoration: none;
+  text-transform: uppercase;
 }
 
 .header-nav-logo-span {
@@ -67,6 +69,7 @@ h3 {
   line-height: 1.07;
   letter-spacing: 0.02em;
   font-weight: bold;
+  text-align: center;
 }
 
 .hero-button {
@@ -74,6 +77,12 @@ h3 {
   color: white;
   font-weight: 500;
   letter-spacing: 0.04em;
+  line-height: 1.5;
+}
+
+.hero-button:hover,
+.hero-button:focus {
+  background-color: #404bbf;
 }
 
 .section-list-item-text {
@@ -90,10 +99,11 @@ h3 {
   color: #4d5ae5;
   font-family: 'Raleway', sans-serif;
   font-size: 18px;
-  line-height: 1.16;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   font-weight: bold;
   text-decoration: none;
+  text-transform: uppercase;
 }
 
 .footer-nav-logo-span {
